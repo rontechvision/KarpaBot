@@ -1,0 +1,5 @@
+2025-06-28 12:18:30,717 - INFO - Sleeping until next target: 2025-06-28 12:33:04.800000 (in 14.6 minutes)
+2025-06-28 12:33:04,802 - INFO - Woken up from sleep. Current time: 2025-06-28 12:33:04.802930
+2025-06-28 12:34:40,431 - INFO - Candle is not a doji. Candle: {'start_time': datetime.datetime(2025, 6, 28, 12, 30, tzinfo=zoneinfo.ZoneInfo(key='Asia/Jerusalem')), 'open': 63367.3, 'high': 64261.5, 'low': 63081.6, 'close': 63081.6, 'volume': 156.197}
+2025-06-28 12:34:40,433 - INFO - Sleeping until next target: 2025-06-28 13:33:04.800000 (in 58.4 minutes)
+2025-06-28 15:06:19,903 - INFO - Sleeping until next target: 2025-06-28 15:33:04.800000 (in 26.7 minutes)
