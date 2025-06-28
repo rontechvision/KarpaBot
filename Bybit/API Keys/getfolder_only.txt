@@ -1,0 +1,3 @@
+Create files for credentionals
+api_key.txt
+api_secret.txt
