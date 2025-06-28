@@ -499,8 +499,8 @@ def exit_hook(api: ThreadSafeSession):
 def start_bot(days_to_run,is_testnet_mode=True,is_local_running=False) -> None:
     session = HTTP(
         testnet=is_testnet_mode,
-        api_key= 'lM8R3xocZWBDCUm3ZD',#read_api_key(is_testnet_mode,is_local_running),
-        api_secret='nKfqVMMpRXcVMKJEP5WPHEnxcWwN52A3L7Mc' #read_api_secret(is_testnet_mode,is_local_running)
+        api_key= read_api_key(is_testnet_mode,is_local_running),
+        api_secret=read_api_secret(is_testnet_mode,is_local_running)
     )
 
     api = ThreadSafeSession(session)
