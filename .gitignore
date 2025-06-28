@@ -1,0 +1,12 @@
+# Ignore API keys and secrets
+Bybit/API Keys/
+
+# Ignore Python cache and logs
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Ignore virtual environments
+venv/
+.env/
